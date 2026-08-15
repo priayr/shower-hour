@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Top Row */}
       <div 
-        className="w-full flex items-center justify-between z-10"
+        className="w-full flex items-center justify-between relative z-30"
         style={{
           paddingTop: 'max(1rem, env(safe-area-inset-top))',
           paddingLeft: 'max(1rem, env(safe-area-inset-left))',
@@ -55,8 +55,8 @@ export default function Home() {
       </div>
 
       {/* Center Text */}
-      <div className="flex-1 flex flex-col items-center justify-center z-10 w-full px-4 text-center -mt-16 md:-mt-32">
-        <h1 className="text-6xl md:text-8xl font-black text-white drop-shadow-2xl tracking-wide">
+      <div className="flex-1 flex flex-col items-center justify-center pointer-events-none z-10 w-full px-4 text-center -mt-16 md:-mt-32">
+        <h1 className="text-6xl md:text-8xl font-black text-white drop-shadow-2xl tracking-wide pointer-events-auto">
           शॉवर टाइम
         </h1>
       </div>
